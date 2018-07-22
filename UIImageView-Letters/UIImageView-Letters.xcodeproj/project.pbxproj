@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		9A46582421046B5400D5D17A /* UIImageView_Letters.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A46582221046B5400D5D17A /* UIImageView_Letters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A46582B21046B7100D5D17A /* UIImageView+Letters.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A46582A21046B7100D5D17A /* UIImageView+Letters.h */; };
+		9A46582D21046B7C00D5D17A /* UIImageView+Letters.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A46582C21046B7C00D5D17A /* UIImageView+Letters.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A46581F21046B5400D5D17A /* UIImageView_Letters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIImageView_Letters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A46582221046B5400D5D17A /* UIImageView_Letters.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIImageView_Letters.h; sourceTree = "<group>"; };
 		9A46582321046B5400D5D17A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A46582A21046B7100D5D17A /* UIImageView+Letters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImageView+Letters.h"; path = "../../UIImageView+Letters/UIImageView+Letters.h"; sourceTree = "<group>"; };
+		9A46582C21046B7C00D5D17A /* UIImageView+Letters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+Letters.m"; path = "../../UIImageView+Letters/UIImageView+Letters.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				9A46582221046B5400D5D17A /* UIImageView_Letters.h */,
+				9A46582A21046B7100D5D17A /* UIImageView+Letters.h */,
+				9A46582C21046B7C00D5D17A /* UIImageView+Letters.m */,
 				9A46582321046B5400D5D17A /* Info.plist */,
 			);
 			path = "UIImageView-Letters";
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A46582421046B5400D5D17A /* UIImageView_Letters.h in Headers */,
+				9A46582B21046B7100D5D17A /* UIImageView+Letters.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A46582D21046B7C00D5D17A /* UIImageView+Letters.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

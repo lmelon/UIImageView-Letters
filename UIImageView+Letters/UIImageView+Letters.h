@@ -27,6 +27,13 @@
 
 #import <UIKit/UIKit.h>
 
+//! Project version number for UIImageView_Letters.
+FOUNDATION_EXPORT double UIImageView_LettersVersionNumber;
+
+//! Project version string for UIImageView_Letters.
+FOUNDATION_EXPORT const unsigned char UIImageView_LettersVersionString[];
+
+
 @interface UIImageView (Letters)
 
 /**
